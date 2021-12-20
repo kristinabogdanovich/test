@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   text-align: center;
+   margin-bottom: 20px;
+}
+.container {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 1200px;
+    border-radius: 10%;
+    margin: 0 auto;
+    padding: 0 auto;
+    box-shadow: 0 0 10px rgb(16, 7, 143);
+    background:rgb(134, 210, 240);
+}
+h3 {
+    font-size: 25px;
+    padding-bottom: 45px;
+}
+.title {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.img {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+img {
+    width: 280px;
+    height: 200px;
+}
+.item p {
+    font-size: 25px;
+    color: rgb(70, 9, 182);
+}
+input {
+    margin: 0;
+}
+.input-style {
+    justify-content: center;
+    display: flex;
+}
+.input-style p {
+    margin-right: 20px;
+}
+.answ, .answ2 {
+
+    font-size: 17px;
+    cursor: pointer;
+    background: rgb(245, 90, 90);
+    border-radius: 10%;
+    font-weight: bold;
+    height: 30px;
+}
+.answ {
+    width: 100px;
+}
+.answ2 {
+    width: 180px;
+    margin: 0;
+}
+.right{
+    background-color: rgb(3, 111, 184);
+}
+.wrong1 {
+     background-color: red;
+ }
+.right_answ,
+.wrong-content {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.right,
+.wrong1{
+    padding-bottom: 5px;
+    font-size: 20px;
+    width: 300px;
+    align-content: center;
+    border-radius: 5px;
+}
+
+.hdn{
+padding-bottom: 20px;
+font-size: 25px;
+display: none;
+}
+
+.opend{
+background-color: rgb(230, 92, 92);
+}
+.correct {
+    font-size: 20px;
+    padding-bottom: 20px;
+    margin-top: -20px;
+}
